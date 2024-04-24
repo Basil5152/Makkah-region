@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>إماراة مكة المكرمة</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<style>
+
+body{background-color: #177354;}
+
+
+.carousel-caption {
+color: black;
+}
+
+.jumbotron text-center {
+background-color: #177354;
+}
+
+
+.article-img, .carousel-img {
+  height: 200px;
+  background: #FFFFFF;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.div-articles {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ flex-grow: 2;
+} 
+
+article p {
+ float: left;
+}
+
+hr{
+width: 100%;
+color: white;
+}
+
+.ends{background-color: #28a745;}
+
+div munu{ 
+clear: both;
+margin-right: 10px;
+}
+
+div p{
+font-family: "Times New Roman", Times, serif;}
+
+article h3{ 
+  float: right;
+  margin-right: 10px;
+}
+
+article p{
+  float: right;
+  margin-right: 10px;
+  color: white;
+ }
+ 
+.div-menu{
+  margin-left: 0px;
+  float: left;
+  width: 15%;
+  height: 775px;
+  text-align: left;
+  background-color: #2F4F4F;
+  display: block;
+  top: 0;
+  color: white;
+  
+}
+.div-menu h1{
+text-align: center;
+color: white;
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+  <header class="jumbotron text-center" style="margin-bottom: 0">
+    <h1>اماراة منطقة مكة المكرمة </h1>
+    <p>مرحبا بكم في إماراة مكة المكرمة</p>
+  </header>
+
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+    <a class="navbar-brand" href="index.html">الرئسية</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+      data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="https://www.makkah.gov.sa/provinces">المحافظات</a>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="https://www.makkah.gov.sa/news">المركز الاعلامي</a>
+        </li>
+        <li class="nav-item"><a class="nav-link"
+          href="https://www.makkah.gov.sa/inquery">الخدمات الالكترونية</a></li>
+      </ul>
+    </div>
+  </nav>
+ 
+
+  <div id="carousel-section" class="carousel slide" data-ride="carousel">
+
+    <!-- Indicators -->
+    <ul class="carousel-indicators">
+      <li data-target="#carousel-section" data-slide-to="0"
+        class="active"></li>
+      <li data-target="#carousel-section" data-slide-to="1"></li>
+      <li data-target="#carousel-section" data-slide-to="2"></li>
+    </ul>
+
+    <!-- The slideshow -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="www.jpg" alt ="phpto" class="carousel-img">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="aa.jpg" alt="Photo" class="carousel-img">
+        <div class="carousel-caption">
+          <h3></h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="mj.jpg" alt="Photo" class="carousel-img" >
+        <div class="carousel-caption">
+          <h3></h3>
+          <p>رسمة للمعلم التاريخي لبوابة مكة المكرمة</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="carousel-control-prev" href="#carousel-section"
+      data-slide="prev"> <span class="carousel-control-prev-icon"></span>
+    </a> <a class="carousel-control-next" href="#carousel-section"
+      data-slide="next"> <span class="carousel-control-next-icon"></span>
+    </a>
+
+  </div>
+
+  <section class="grid-container-central">
+ <div class="div-menu">
+ <h1>القائمة</h1>
+ <ol>
+ <li><a href="#p1">اخر الاخبار</a></li>
+ <li><a href="#p2">بوابة تواصل الإلكترونية</a></li>
+ <li><a href="#p3">مهام الاماراة</a></li>
+ <li><a href="#p4">تاريخ مكة المكرمة</a></li>
+ </ol>
+ </div>
+  </section>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  
+
+
+   
+   
+  <div class="div-articles" align ="right">
+ <article>
+     <h3 id="p1">الاخبار</h3>
+	<p>أمير مكة يرأس اجتماعاً بحضور معالي رئيس الهيئة العامه للطيران المدني عبدالعزيزالدعيلج
+        رأس مستشار خادم الحرمين الشريفين أمير منطقة مكة المكرمة صاحب السمو الملكي الأمير خالد الفيصل في مقر الإمارة بجدة اجتماعاً بحضور معالي رئيس الهيئة العامه للطيران المدني عب
+         دالعزيزالدعيلج و الرئيس التنفيذي لشركة مطارات جدة ريان طرابزوني ومديرعام مطارالملك عبدالعزيز عصام نور. واطلع الأم
+       ير خالد الفيصل خلال الاجتماع على خطة تشغيل الصالة 1 بمطار الملك عبدالعزيز حيث سيتم قريباً العمل على النقل
+استقبل مستشار خادم الحرمين الشريفين أمير منطقة مكة المكرمة صاحب السمو الملكي الأمير خالد الفيصل في مقر الإمارة بجدة، رئيس الهيئة العامة للإحصاء الدكتور كونراد بيسيندورفر، والوفد المرافق الذي يزور المنطقة حاليًا. واطلع سموه على تقرير خطة تعداد السعودية 
+2022م التي تستهدف تجهيز إحصاءات كاملة ودقيقة لحصر السكان والمساكن ودارسة خصائصهم وتوزعهم الديموغرافي في جميع المناطق الإدارية، وتحوي أهم البيانات
+أطلق مستشار خادم الحرمين الشريفين أمير منطقة مكة المكرمة صاحب السمو الملكي الأمير خالد الفيصل في مقر الإمارة بجدة، الموسم الرابع من جائزة الأمير عبدالله الفيصل للشعر العربي ، وذلك بحضور عدد من أصحاب السمو الأمراء 
+والمعالي وعدد من المثقفين والأدباء. وتأتي الجائزة في نسختها الرابعة بحلةٍ جديدة وذلك بإضافة فرعين جديدين ، تبلغ قيمتها مليون و500 ألف ريال سعودي موزّعة على ستة فروع وهي: -جائزة الأمير	   </p>
+ </article>
+
+ <article>
+   <h3 id="p2">بوابة تواصل الإلكترونية</h3>
+   <p>بوابة تواصل الإلكترونية توفر لكم إمكانية تقديم طلب أو شكوى أو استفسار أو اقتراح وستقوم الجهة المختصة بإمارة منطقه مكة 
+    المكرمة بمعالجة طلبكم والرد عليه، كما توفر الخدمة أيضاً خاصية الإستعلام عن الطلبات المقدمة ومعرفة اخر المستجدات عليها.</p>
+ </article>
+
+ <article>
+   <h3 id="p3">المهام</h3>
+   <p>تمثيل خادم الحرمين الشريفين في المنطقة.
+    التأكد من تحقيق سير العدالة في المنطقة.
+    العمل على حفظ الأمن في المنطقة.
+   العمل على توفير كافة الخدمات لمواطني المنطقة بالتعاون والتنسيق مع الجهات الحكومية والمشاركة في مراحل التخطيط لكافة الخدمات .
+   التأكد من كفاءة وفاعلية الخدمات التي تقدم لمواطني المنطقة، والعمل على تحسين وتطوير تقديم تلك الخدمات .
+  تلقي شكاوي واستدعاءات المواطنين والنظر في أمورهم والعمل على تلبية مطالبهم وحل مشكلاتهم.</p>
+ </article>
+ 
+ <article>
+   <h3 id ="p4">التاريخ</h3>
+ <p>منطقة مكة المكرمة هي إحدى المناطق الإدارية بالمملكة العربية السعودية ومقر إمارتها م
+ دينة مكة المكرمة ويتولى إمارتها الأمير خالد بن فيصل بن عبد العزيز آل سعود منذ عام (2007م - 1428هـ).
+ وهي أكثر مناطق المملكة في عدد السكان، إذ يقطنها نحو 26.2% من مجمل سكان المملكة، 
+ وتشتهر مكة بـ الكعبة المشرفة والتي يزورها سنويا ما يفوق 20 مليون زائر منهم حجاج ومعتمرين وسائحين
+ يبلغ عدد سكان مكة بحسب إحصائيات عام 2015، نحو 1,578,722 نسمة موزعين على أحياء مكة القديمة والجديدة. تضم مكة العديد من المعالم الإسلامية المقدسة، لعل من أبرزها المسجد ا
+ لحرام وهو أقدس الأماكن في الأرض بالنسبة للمسلمين؛ ذلك لأنه يضم الكعبة المشرفة قبلة المسلمين في الصلاة، كما أنه أحد المساجد الثلاثة التي تشد إليها الرحال،</p>
+ </article>
+ <br>
+ </div>
+   
+
+  <hr>
+
+  <footer class="jumbotron text-center" style="margin-bottom: 0">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <ul class="list-group">
+			 <li class="list-group-item"><a href="https://outlook.office365.com/mail/inbox/s41005152@st.uqu.edu.sa">Email</a></li>
+			 <li class="list-group-item"><a href="https://twitter.com/makkahregion/">Twitter</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-6">
+          <ul class="list-group">
+                        <li class="list-group-item"><a href="https://www.youtube.com/c/makkahregion">Youtube</a></li>
+            <li class="list-group-item"><a
+              href="https://github.com/Basil5152/">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+	
+
+
+    <div>
+      <p>
+        Designed and built by Basil Alqarihi
+      </p>
+
+      <p class ="ends"><a href="https://www.makkah.gov.sa/"
+          target="_blank"></a> جميع الحقوق محفوظة لإمارة منطقة مكة المكرمة 2021 © </p>
+    </div>
+  </footer>
+
+
+</body>
+</html>
